@@ -1,46 +1,17 @@
 * {box-sizing: border-box;}
-ul{
-  display:flex;
-  list-style:none;
-}
-li{
-  margin-left: auto;
-  margin-right: auto;
-}
-.dv1{
-  width:80%;
-  margin-left:auto;
-  margin-right:auto;
-}
-.p1{
-  width:60%;
-  float:left;
-  margin:40px 60px;
-}
-.pfimg{
-  float:left;
-  margin:10px 50px;
-}
+
 input{
   margin:10px 10px;
 }
 button{
   margin:10px 10px;
 }
-.p2{
-  width:50%;
-  margin-left:auto;
-  margin-right:auto;
-}
-.h{
-  margin:20px 20px;
-}
+
 .iimg{
-  margin:10px 10px;
+  height: 15rem;
+  width: 15rem;
 }
-.btscl{
-  border-radius:45px;
-}
+
 
 .col-1 {width: 8.33%; float: left;}
 .col-2 {width: 16.66%; float: left;}
@@ -119,4 +90,15 @@ h1 {
 }
 body {
   margin: 0;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #444;
+  margin: 0 auto; 
+  border-bottom: 2px solid black;
+}
+.port-img {
+  box-sizing: inherit;
+  float: left;
 }
