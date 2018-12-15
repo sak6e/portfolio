@@ -8,8 +8,8 @@ button{
 }
 
 .iimg{
-  height: 15rem;
-  width: 15rem;
+  height: 15vw;
+  width: 15vw;
 }
 
 
@@ -93,12 +93,11 @@ body {
 }
 h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4vw;
   color: #444;
   margin: 0 auto; 
-  border-bottom: 2px solid black;
+  border-bottom: 0.2vh solid lightgrey;
 }
-.port-img {
-  box-sizing: inherit;
-  float: left;
+.self-img {
+  border-radius: 50%;
 }
