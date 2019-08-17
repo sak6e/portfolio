@@ -1,42 +1,127 @@
-ul{
-  display:flex;
-  list-style:none;
+* {box-sizing: border-box;}
+
+.col-1 {width: 8.33%; float: left;}
+.col-2 {width: 16.66%; float: left;}
+.col-3 {width: 25%; float: left;}
+.col-4 {width: 33.33%; float: left;}
+.col-5 {width: 41.66%; float: left;}
+.col-6 {width: 50%; float: left;}
+.col-7 {width: 58.33%; float: left;}
+.col-8 {width: 66.66%; float: left;}
+.col-9 {width: 75%; float: left;}
+.col-10 {width: 83.33%; float: left;}
+.col-11 {width: 91.66%; float: left;}
+.col-12 {width: 100%; float: left;}
+
+.menu {
+  margin-top: 1%;
+  font-size: 4vw;
+  color: white;
 }
-li{
-  margin-left: auto;
-  margin-right: auto;
+.overlay {
+  height: 100%;
+  display: none;
+  position: fixed;
+  overflow: scroll;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
 }
-.dv1{
-  width:80%;
-  margin-left:auto;
-  margin-right:auto;
+.overlay-content {
+  top: 4vh;
+  margin-bottom: 4vh;
+  position: relative;
+  overflow: scroll;
 }
-.p1{
-  width:60%;
-  float:left;
-  margin:40px 60px;
+.overlay-contents {
+  top: 25%;
+  text-align: center;
+  font-size: 3.5vw;
 }
-.pfimg{
-  float:left;
-  margin:10px 50px;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
-input{
-  margin:10px 10px;
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
-button{
-  margin:10px 10px;
+.closebtn {
+  position: absolute;
+  right: 1.5vw;
+  font-size: 7vw;
+  z-index: 2;
 }
-.p2{
-  width:50%;
-  margin-left:auto;
-  margin-right:auto;
+#continer {
+  width: 95%;
+  margin: 0 auto;
 }
-.h{
-  margin:20px 20px;
+.navbar {
+  background-color: #ce7c6d;
+  margin: 0 auto;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
 }
-.iimg{
-  margin:10px 10px;
+.heightspace {
+  min-height: 25px;
 }
-.btscl{
-  border-radius:45px;
+h1 {
+  font-size: 2.8vw;
+  text-align: center;
+  color: white;
+}
+body {
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  font-size: 4vw;
+  color: #444;
+  margin: 0 auto; 
+  border-bottom: 0.2vh solid lightgrey;
+}
+.self-img {
+  border-radius: 50%;
+}
+input {
+  margin:2vh auto;
+}
+.fa {
+  padding: 2vw;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.5vw 0.5vw;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-github {
+  background: #007bb5;
+  color: white;
+}
+p, h5 {
+  font-size: 2vw;
 }
